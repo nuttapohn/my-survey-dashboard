@@ -24,7 +24,7 @@ import {
  */
 
 // --- ⚠️ ส่วนที่ต้องแก้ไข: ใส่ URL ของ Web App ที่ได้จาก Google Apps Script ⚠️ ---
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwUaITCF0F2IgaN8w1a2ehqjQYTVx2uoOepBjAyvTw4kTGyGVq8bTGxtPzkW5eRWyXY9g/exec"; 
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbx8SnLRbUGcXCjCAZFPz5O1881SRO-7wE1jH2REisjzPoZKB7Ojpg4dwBTc4QYSLkO2Aw/exec"; 
 
 const App = () => {
   const [data, setData] = useState({ surveys: [], users: [] });
@@ -125,7 +125,7 @@ const App = () => {
                 <ClipboardList size={24} />
               </div>
               <div>
-                <h1 className="text-lg font-extrabold text-slate-800 leading-tight">นทน. 16xx</h1>
+                <h2 className="text-lg font-extrabold text-slate-800 leading-tight">นายทหารการเงินชั้นนายร้อย รุ่นที่ 16 ของ สป.</h2>
                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Survey Tracking</p>
               </div>
             </div>
